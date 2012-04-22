@@ -10,7 +10,7 @@ import java.util.Objects;
  * NGramEntity - an entity for n-gram 
  * @author mat
  */
-public class NGramEntity implements Comparable { 
+public class NGramEntity implements Comparable<NGramEntity> { 
     
     //sequence of chars in an n-gram
     private String sequence;
@@ -46,14 +46,14 @@ public class NGramEntity implements Comparable {
         return this.sequence.length();
     }
 
+    //Note: this class has a natural ordering that is inconsistent with equals.
     @Override
-    public int compareTo(Object t) {
-        NGramEntity compared = (NGramEntity)t;
-        if (occurences > compared.getOccurences()) {
+    public int compareTo(NGramEntity t) {
+        if (occurences > t.getOccurences()) {
             return 1;
         }
-        else if (occurences == compared.getOccurences()) {
-            return 0;
+        else if (occurences == t.getOccurences()) {
+            return (sequence.compareTo(t.sequence));
         }
         else {
             return -1;

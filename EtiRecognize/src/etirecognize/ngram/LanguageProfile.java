@@ -2,13 +2,14 @@ package etirecognize.ngram;
 
 import java.io.*;
 import java.util.HashMap;
-import java.util.Hashtable;
+import java.util.LinkedList;
+import java.util.Set;
 import java.util.TreeSet;
 
 /**
  * LanguageProfile
  * 
- * Class to contain a profile of language, basing on ngrams
+ * Class to contain a profile of language or a document, basing on ngrams
  * it contains the frequency of all 1- to 5-grams basing on
  * a specific data set
  * 
@@ -22,15 +23,20 @@ public class LanguageProfile {
     private final String name;
     //array of 1 to 5-grams - not sure which collection I should use to get
     //a good comparison
-    private TreeSet<NGramEntity>[] ngram;
+    private HashMap<String, Integer>[] ngram;
+    private TreeSet<NGramEntity>[] sortedNGrams;
+    public LinkedList<String>[] order;
 
     public LanguageProfile(String name) {
         this.name = name;
-        ngram[0] = new TreeSet<>();
-        ngram[1] = new TreeSet<>();
-        ngram[2] = new TreeSet<>();
-        ngram[3] = new TreeSet<>();
-        ngram[4] = new TreeSet<>();
+        ngram = new HashMap[5];
+        sortedNGrams = new TreeSet[5];
+        order = new LinkedList[5];
+        for (int i = 0; i < 5; i++) {
+            ngram[i] = new HashMap<>();
+            sortedNGrams[i] = new TreeSet<>();
+            order[i] = new LinkedList<>();
+        }
     }
     
     /*
@@ -46,16 +52,56 @@ public class LanguageProfile {
         // repeat until all lines is read
         while ((text = reader.readLine()) != null) {
             text = text.toLowerCase();
+            text = text.replaceAll("(\\W)", " ");
+            text = text.replaceAll("(\\d)", "");
+            //System.out.println(text);
             contents.append(text);
         }
         
         //divide buffer into words
-        String[] words = contents.toString().split("\\s");
+        String buffer = contents.toString();
+        String[] words = buffer.split("\\s");
         this.splitIntoNGrams(words);
     }
 
     private void splitIntoNGrams(String[] words) {
-        //not implemented yet
+        for (String word : words) {
+            for (int i = 1; i <= 5; i++) {
+                // i-gram
+                for (int j = 0; j <= word.length() - i; j++) {
+                    String key = word.substring(j, j+i);
+                    if (ngram[i-1].containsKey(key)) {
+                        ngram[i-1].put(key, ngram[i-1].get(key) + 1);
+                    }
+                    else {
+                        ngram[i-1].put(key, 1);
+                    }
+                }
+            }
+        }
+        //at this point, we've got a HashMap of keys and their values
+        
+        for (int i = 0; i < 5; i++) {
+            Set<String> keys;
+            keys = ngram[i].keySet();
+            for (String key : keys) {
+                NGramEntity entity = new NGramEntity(key);
+                entity.setOccurences(ngram[i].get(key));
+                boolean check = sortedNGrams[i].add(entity);
+            }
+        }
+        
+        
+        //NGramEntities are now sorted into the TreeSets, so we've got a profile
+        //it might be useful to simply put names into the LinkedList
+        
+        for (int i = 0; i < 5; i++) {
+            NGramEntity element = sortedNGrams[i].last();
+            do {
+                String name = element.getSequence();
+                order[i].add(name);
+            } while ((element = sortedNGrams[i].lower(element)) != null );
+        }
     }
     
 }

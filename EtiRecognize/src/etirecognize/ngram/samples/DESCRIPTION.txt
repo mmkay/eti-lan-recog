@@ -1,0 +1,8 @@
+Samples description:
+
+ENGLISH (more samples to check if there's any difference between types of text):
+eng-nasa.txt - http://en.wikisource.org/wiki/Project_Longshot
+eng-hero.txt - http://en.wikisource.org/wiki/Southern_Historical_Society_Papers/Volume_38/Major_John_Pelham,_Hero
+eng-wiki.txt - http://en.wikipedia.org/wiki/George_Orwell
+eng-oneword.txt - just one english word to debug check
+eng.txt - samples from different books from Wikiquote

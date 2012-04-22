@@ -1,0 +1,55 @@
+1.0 MISSION MODEL
+
+1.1 General Mission
+
+The subject of this report is the design of an unmanned probe to Alpha Centauri. This mission is called for in the report by the National Commission on Space, Pioneering the Space Frontier. On pages 38 through 40 the commission outlines a program for the period "beyond the initial operation of the space station," and includes "a long life high-velocity spacecraft to be sent out of the Solar System on a trajectory to the nearest star." Our probe will be a completely autonomous design based upon a combination of current technology and technological advances which can be reasonably expected to be developed over the next 20 to 30 years. The expected launch date is in the beginning of the next century with a transit time of 100 years.
+
+The mission profile will be as follows:
+
+    1. Assembly of modular components on the ground.
+    2. Launch of components to LEO.
+    3. Assembly of components at Space Station.
+    4. Boost assembled and fueled spacecraft to injection point for interstellar trajectory using chemical upper stage.
+    5. Start main fusion drive and begin interstellar flight which will last approximately 100 years.
+    6. During this period data will be returned on the interstellar medium and magnetic fields.
+    7. Enter elliptical orbit around Beta Centauri and begin transmission of data. 
+
+
+1.2 Technology
+
+Using purely current technologies, a mission to another star system would be impossible to complete. There are basically three main areas where advances are needed: propulsion, data processing for command and control functions, and reliability.
+
+In order to reduce transit time to an acceptable length, specific impulses on the order of 10E6 seconds are required. This represents an increase of several orders of magnitude over chemical rockets and nuclear rocket models which can be implemented using only present technology. To achieve the required levels of impulse, a pulsed fusion reactor based rocket engine is proposed. Based on the current level of technology in the field of microbomb fusion it is reasonable to assume that in 20 to 30 years such a system will be possible.
+
+Due to the great distance at which the probe will operate, positive control from earth will be impossible due to the great time delays involved. This fact necessitates that the probe be able to think for itself. In order to accomplish this, advances will be required in two related but separate fields, artificial intelligence and computer hardware. AI research is advancing at a tremendous rate. Progress during the last decade has been phenomenal and there is no reason to expect it to slow any time soon. Therefore, it should be possible to design a system with the required intelligence by the time that this mission is expected to be launched. The problem with basing the design on current hardware is one of weight and speed. Producing a system with the required intelligence and speed, while including the needed redundancy using current technology, would result in a huge unit requiring a cooling system as large as a nuclear power plant's. Current advances have shrunk a Cray 2 from a room sized system needing a huge cooling plant to two chips, and with the advent of high temperature super-conductor technology there is every reason to assume that many more such quantum leaps in computer technology may be expected in the next 20 to 30 years.
+Since no one has ever designed a dynamic system to last for more than a century, it is impossible to guess just how much the reliability of current systems will have to be improved. However, many satellites which were designed with mission lives of only a few years have operated for much longer periods of time, often failing merely because they ran out of expendables. The Transit family is a good example: they were designed to last for only 18 months and there are some still operating after 18 years or more. Other examples include Pioneer, Mariner, Voyager, and Viking. With successes in reliability such as these, and the improvements in simulation technology which will come with the improvements in computer technology (discussed in the previous paragraph), there should be no difficulty in designing in the required reliability.
+
+
+1.3 Infrastructure
+
+A very strong effort towards space exploration will be required to complete this mission and this commitment will have to begin in order to ensure that those systems essential for the production of the probe and its initial boost phase will be in place when the enabling technologies are realized. These systems include a heavy-lift launch vehicle, a large space station and an advanced, high energy upper stage. These requirements represent merely the technological infrastructure; also required is a very large initial human infrastructure, as well as a long term human commitment.
+
+The heavy-lift launcher is needed since current weight estimates for the spacecraft are in excess of 350 metric tons. Even after taking into account the assumption that the ship will be launched into LEO as a series of modular components, the size of many of the modules precludes their launch on the Shuttle. Additionally, some units will be too massive and complex to be launched by available launch vehicles.
+
+Since a basic assumption in this analysis is that the probe will be launched in a modular form and assembled in orbit, it is necessary to provide an orbiting base of operations for the personnel assembling the components of the spacecraft. This base will be Space Station. Requirements for the station will include:
+
+    Capability to house a large work force to include assembly technicians and test engineers.
+    A number of large manipulator arms and sufficient mechanical support structure to allow attachment of all required assembly jigs.
+    Adequate data processing capability to perform systems checks during assembly and the final system check-out following assembly.
+
+Due to the nature of the main drive, it is both inadvisable and impossible to complete the mission by igniting the fusion drive in LEO. This fact leads to the requirement for the advanced upper stage. The planned in-solar system mission profile calls for a series of three burns using these upper stages to escape the solar system from which the interstellar injection may be made. This report will assume that the upper stage will have twice the impulse and similar weight characteristics to the Space Shuttle SRB.
+
+The human side of the infrastructure will be a much greater challenge than the technical side because the required commitment spans such a long period of time. The time between the initial authorization for the mission until the return of the first data from Alpha Centauri system will be well in excess of one century. In fact it will probably be on the order of two centuries when the time needed for hardware design, procurement, in-orbit assembly, and transit are considered. The effort required to design, build and launch the probe would be on the order of the Apollo project or much larger. The commitment at the other end of the mission should be an easy one to fulfill since scientists will be eager to analyze the incoming data. Thus, the greatest challenge comes with the caretaker portion of the mission - the century of travel time when very little data will be transmitted. The problem here is not the number of people required, since it will be small, but rather the time involved. There has never been a similar project in modern history carried out over such a long time scale. However, there have been organizations which have lasted for such a time. In fact, some have lasted longer! Some examples include: the militaries of nations such as the U.S. and U.K., various research institutions like the National Geographic Society and the Smithsonian Institute, and private organizations such as the Red Cross and the Explorer's Club. The precedent exists for organizations continuing for the required time frame. Therefore it can be assumed that the required support structure can be established.
+
+2.0 MISSION PROFILE
+
+2.1 Objective Star System
+
+The star system chosen as our objective system for this mission is the Alpha Centauri trinary star system. There are three main reasons for choosing this system as the destination of the probe: (1) the system's proximity to our solar system; (2) the scientific interest of a trinary system; (3) sending a probe to this star system provides an opportunity to make great advances in the field of astrometry.
+
+One of the main concerns regarding the success of the mission is the ability of the probe to be in good working order when it reaches the objective system. While any interstellar mission will require transit time in excess of a century, the Alpha Centauri system is the closest to our own, and thus provides the best opportunity to deliver a functional probe to another star system.
+
+While it would be a great achievement to do a close-up study of any other star system, the Alpha Centauri system promises to be a a particularly interesting objective. Alpha and Beta Centauri, which are type G2V and dK1 stars, respectively, orbit each other with a separation of 11 to 35 AU. The third star of the system, Proxima Centauri, orbits the other pair at a distance of about 1/6 of a light year. Proxima Centauri is a type dM5e red dwarf, which exhibits sudden changes in magnitude. It is also one of the smallest known stellar masses. Proxima's position should provide and opportunity for the probe to pass relatively close by on its way to its final destination, a close orbit about Beta Centauri. There is also the possibility that this star system contains planets. Advances in astronomy before the probe is launched should provide much more information about the system to help plan the probe's exploration.
+
+Perhaps the greatest contribution that the mission will make to the scientific community will be in the field of astrometry. Sending a spacecraft to the Alpha Centauri system provides an opportunity to make parallax measurements with a baseline of 4.34 light years (see Fig 2.1a). This is over 63,000 times longer than the present method, which uses the semimajor axis of Earth's orbit as a baseline (see Fig 2.1b). At this time, parallax measurements are only accurate to about 20 parsecs from the Sun. The longer the baseline would allow accurate measurements of stellar distances of more than 1.2 million parsecs. If the probe lasts long enough, it has the potential to accurately determine the distance to hundreds of trillions of stars. Knowing the distance to a star is vital in determining its properties. Such an accomplishment would keep astronomers busy for quite some time. 
+
