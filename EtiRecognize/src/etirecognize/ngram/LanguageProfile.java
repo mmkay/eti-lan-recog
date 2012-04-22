@@ -50,8 +50,14 @@ public class LanguageProfile {
         // repeat until all lines is read
         while ((text = reader.readLine()) != null) {
             text = text.toLowerCase();
-            text = text.replaceAll("(\\W)", " ");
+            /* It's actually pretty hard to determine if I should remove all
+             * non-alphanumeric characters, but by leaving them I make it 
+             * possible to detect languages like Russian, that uses Cyrylic
+             * alphabet
+             */
+            //text = text.replaceAll("(\\W)", " ");
             text = text.replaceAll("(\\d)", "");
+            
             //System.out.println(text);
             contents.append(text);
         }

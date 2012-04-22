@@ -3,6 +3,7 @@ package etirecognize.ngram;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Vector;
 
 /**
@@ -11,9 +12,8 @@ import java.util.Vector;
  */
 public class MainComparator {
 
-    static String[] langs = {"eng", "pol"};
-    static String[] checked = {"eng-nasa", "eng-hero", "pol-wiki",
-        "eng-oneword", "eng-wiki"};
+    static String[] langs = {"eng", "pol", "ger", "rus", "fra", "cze", "hrv"};
+    static String[] checked = {"hrv-test", "pol-diff", "pol-wiki", "cze-test"};
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
         /*
@@ -33,7 +33,7 @@ public class MainComparator {
         //create profiles of languages and samples to check
         for (String lang : langs) {
             LanguageProfile prof = new LanguageProfile(lang);
-            prof.addData(new File("./src/etirecognize/ngram/samples/"+lang+".txt"));
+            prof.addData(new File("./src/etirecognize/ngram/languages/"+lang+".txt"));
             languages.add(prof);
         }
         for (String lang : checked) {
@@ -53,7 +53,9 @@ public class MainComparator {
                     dist = temp;
                     langname = languages.get(j).getName();
                 }
-                System.out.println("Language "+languages.get(j).getName()+": "+temp);
+                double percent = (90000-temp)*100.0/90000.0;
+                DecimalFormat df = new DecimalFormat("###.##");
+                System.out.println("Language "+languages.get(j).getName()+": "+temp+", "+df.format(percent)+"%");
             }
             System.out.println("Detected language: "+langname+", distance: "+dist);
         }
