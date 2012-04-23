@@ -12,7 +12,7 @@ import java.util.TreeMap;
 import org.neuroph.core.NeuralNetwork;
 import org.neuroph.core.learning.SupervisedTrainingElement;
 import org.neuroph.core.learning.TrainingSet;
-import org.neuroph.nnet.Perceptron;
+import org.neuroph.nnet.MultiLayerPerceptron;
 /**
  *
  * @author Monia
@@ -24,7 +24,7 @@ public class MainFreq {
     
     static TreeMap<String, double[]> codes = new TreeMap<>();
     static String[] langs = {"eng", "pol", "ger", "fra"};
-    static String tekst = "./src/etirecognize/ngram/samples/eng-wiki.txt";
+    static String tekst = "./src/etirecognize/ngram/samples/fra-test.txt";
     
     //te mapy w sumie powodują zbędne przepisywanie danych w tę i nazad
     //później to wszystko przebuduję
@@ -84,11 +84,12 @@ public class MainFreq {
         double[] kod4 = {1,0,0,0};
         codes.put("fra",kod4);
         
-        NeuralNetwork neuralNetwork = new Perceptron(26,4);
+        NeuralNetwork neuralNetwork = new MultiLayerPerceptron(26,13,4);
         TrainingSet<SupervisedTrainingElement> trainingSet = new TrainingSet<>(26,4);
         
         //właściwe uczenie sieci
-        //przeważnie działa - najlepiej z angielskim, najgorzej z niemieckim
+        //na razie dostaje tylko po jednym zestawie na język, ale o dziwo to wystarcza
+        //(przynajmniej dla Twoich tekstów testowych)
         for(String lang : langs) {
             LangProfile lp = languages.get(lang);
             double[] values = new double[26];
