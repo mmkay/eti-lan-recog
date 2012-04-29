@@ -1,4 +1,6 @@
 Languages directory contains models of languages basing on Wikisource entries,
-more than 200 lines for every language.
+more than 200 lines for every language. For Danish, I needed to use more entries
+from Wikipedia, as it seems modern Danish is closer to Norwegian than to Danish
+from previous centuries.
 
 Samples directory is the variety of samples that we try to recognize.

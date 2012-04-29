@@ -12,8 +12,9 @@ import java.util.Vector;
  */
 public class MainComparator {
 
-    static String[] langs = {"eng", "pol", "ger", "rus", "fra", "cze", "hrv"};
-    static String[] checked = {"hrv-test", "pol-diff", "pol-wiki", "cze-test"};
+    static String[] langs = {"eng", "pol", "ger", "rus", "fra", "cze", "hrv",
+        "danish", "norwegian"};
+    static String[] checked = {"test"};
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
         /*
