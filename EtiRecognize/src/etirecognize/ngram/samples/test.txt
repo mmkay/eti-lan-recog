@@ -1,86 +1,30 @@
-Arrestert nordmann i Sudan er mineryddar frå Norsk Folkehjelp
-John Sørbo på veg ut av flyet i Khartoum. (Foto: MOHAMED NURELDIN ABDALLAH/Reuters)
+	
+מרכז השידורים החדש > תמיכה טכנית
+ 
+עם חשיפת מרכז השידורים החדש ייתכנו קשיים בקבלת התכנים ועל כן אנו ממליצים:
 
-John Sörbö på veg ut av flyet på flyplassen i hovudstaden Khartoum i Sudan.
-Foto: MOHAMED NURELDIN ABDALLAH/Reuters
+:: להגדיל את שטח הדיסק המיועד לקובצי אינטרנט זמניים בדפדפן
+תפריט הדפדפן > כלים > אפשרויות אינטרנט > הגדרות > הגדרות קובצי אינטרנט זמניים והיסטוריה > שטח דיסק לשימוש > 100
+ 
+:: לשדרג את הדפדפן של אקספלורר לגרסה 8 לחצו כאן
 
-Norsk Folkehjelp stadfestar at ein av deira mineryddarar, John Sörbö, er pågripen av sudanske soldatar i grenseområdet mellom Sudan og Sør-Sudan.
+:: להתקין Flash Player:
+להורדת הנגן לחצו כאן
 
-    Bent Tandstad bent.tandstad@nrk.no
-    Øyvind Grosvold oyvind.Grosvold@nrk.no 
+:: אם כבר מותקן במחשבך Flash Player, יש לדאוג לעדכון גרסה
+היכנסו לאתר והורידו את הגרסה האחרונה. לחצו כאן
 
-Publisert 28.04.2012 16:18. Oppdatert 28.04.2012 23:12.
+:: להרחיב את נפח האחסון המקומי
+מבצעים הקלקה כפולה על מסך השידור באמצעות כפתור העכבר הימני > Settings < Local Storage > יש להזיז את הסמן עד לקצה הימני Unlimited
+ 
+:: משתמשי Mac
+נדרש להוריד ולהקתין Silverlight Plug-in
 
-    Del11
-    Del/tips
-    Skriv ut
+:: לנקות את הזיכרון הווירטואלי של הדפדפן
+בתפריט הדפדפן > כלים > אפשרויות אינטרנט > מחיקה > אישור
+ 
+:: להגדיר חיפוש גרסה בכל כניסה לאתר
+על מנת שכל הכניסות למרכז יהיו חלקות, עליך להגדיר כי בכל כניסה לאתר, הדפדפן יחפש את הגרסה האחרונה.
+תפריט > כלים > אפשרויות אינטרנט > הגדרות > לסמן: בכל ביקור בדף האינטרנט
 
-Sudanske styresmakter seier dei har pågripe ein nordmann med militær bakgrunn i grenseområdet mellom Sør-Sudan og Sudan.
-
-Pressekontakt Øystein Sassebo Bryhni i Norsk Folkehjelp seier at dei fleste mineryddarar har militær bakgrunn, men at det er viktig å få fram at han no arbeider for Norsk Folkehjelp, som er ein humanitær organisasjon.
-Fleire utlendingar
-
-Nordmannen vart pågripen saman med tre andre utlendingar, ein britisk- og ein sørafrikansk statsborgar og ein sørsudansk soldat, i det omstridde og oljerike Heglig-området, der det nyleg var harde kampar mellom sørsudanske og sudanske soldatar.
-
-Landdirektør Jan Ledang i Norsk Folkehjelp i Sør-Sudan seier at det er ein av dei mest erfarne mineryddarane i organisasjonen som no er på arrestert saman med fleire FN-tilsette. Han seier at dei ikkje kjenner detaljane rundt pågripinga, men at dei jobbar på spreng for å få han sett fri.
-
-VIDEO: Landdirektør Jan Ledang blir intervjua av Lars Sigurd Sunnanå.
-
-Ledang seier at gruppa ikkje var i Heglig-området, men i Pariang i delstaten South Unity, eit område ein og ein halv time i bil frå Heglig. Dei dreiv med etterarbeid av minneryddingsarbeid i området, legg han til.
-Talsmann for den sudanske hæren Sawarmi Khaled Saad. (Reuters)
-
-Talsmann for den sudanske hæren Swarmi Khaled Saad.
-Reuters
-
-Nordmannen var saman med ein representant for FN og en tilsett i eit sørafrikansk mineryddingsprogram då han vart pågripen, opplyser Per Nergaard, strategisk leiar for samfunnsberedskap i Norsk Folkehjelp.
-Dyktig og erfaren medarbeidar
-
-John Sörbö er 50 år gammal, og han har vore tilsett i det humanitære mineprogrammet til Norsk Folkehjelp i Sør-Sudan sidan 2005. Han starta som leiar for eit kartleggingslag før han tok over som medisinsk koordinator.
-
-Han blir karakterisert som svært dyktig, og han vart tilsett somprosjektleiar for eit eige kapasitetsbyggingsprosjekt som Norsk Folkehjelp starta i samarbeid med styresmaktene i Sør-Sudan.
-
-Den sudanske hæren seier at dei tre utlendinganen har militær bakgrunn, og at dei hjelper den sørsudanske hæren. Dette blir på det sterkaste avvist av styresmaktene i Sør-Sudan.
-- Sørsudansk aggresjon
-
-– Dette stadfestar det vi har sagt tidlegare, at Sør-Sudan i sin aggresjon mot Heglig vart støtta av utanlandske ekspertar, seier Sawarmi Khaled Saad, talsmann for den sudanske regjeringa i Khartoum.
-Sudanske soldatar i Heglig-området 23. april. (Foto: MOHAMED NURELDIN ABDALLAH/Reuters)
-
-Sudan var raskt ute med å sende fleire soldatar til Heglig etter kampane for to veker sidan.
-Foto: MOHAMED NURELDIN ABDALLAH/Reuters
-
-Dei tre utlendingane er tekne til den sudanske hovudstaden Khartoum med fly, opplyser Mohammed Jadallah, talsmann for det sudanske forsvarsdepartementet.
-
-Den sørsudanske hæren opplyser at ein FN-lastebil køyrde seg vill i grenseområdet, og at dei som var om bord er pågripne av den sudanske hæren.
-
-LES OGSÅ: – Sudan har erklært krig mot oss
-
-LES OGSÅ: – Tre drept i angrep mot Sør-Sudan
-– Tok seg inn ulovleg
-
-Dei tre, ein brite, ein sørafrikanar og nordmannen, skal ha prøvd å ta seg ulovleg inn i området saman med ein sørsudansk soldat, opplyser Mohammed Jadallah.
-
-Han fortel også at dei tre utlendingane reiste i to bilar, og at det var våpen i bilane.
-
-Både Utanriksdepartementet og Norsk Folkehjelp jobbar kveld på spreng for å få nordmannen sett fri.
-
-Det er svært spent i grenseområdet, og det er frykt for full krig mellom Sudan og Sør-Sudan. Begge partar har gått til angrep inne på det andre landet sitt territorium. Bakgrunnen er ein langvarig krangel om fordelinga av oljeinntektene i Heglig-området.
-
-LES OGSÅ: Flere hundre drept i Sudan
-
-LES OGSÅ: Sudan feirar at Sør trekk seg ut
-Begge land gjer krav på Heglig
-
-For nesten tre veker sidan gjekk sørsudanske soldatar inn i Heglig, der Sudan har halvparten av oljeproduksjonen sin. Sudan svarte med å bombe den sørsudanske oljebyen Betiu.
-
-Begge landa meiner at Heglig-området høyrer til dei. Sør-Sudan vil at Den internasjonale grensedomstolen i Haag skal avgjere striden, men dette har styresmaktene i Khartoum avvist.
-
-Norsk Folkehjelp har hatt eit dårleg forhold til regimet i Khartoum etter at organisasjonen støtta Sør-Sudan under borgarkrigen der.
-
-LES OGSÅ: Sør-Sudan trekker seg ut
-Norsk Folkehjelp i Sør-Sudan
-
-* Norsk Folkehjelp etablerte seg i Sør-Sudan i 1986 som den eneste internasjonale hjelpeorganisasjonen som klart tok den sørsudanske opprørsgeriljaens (SPLAs) side i borgerkrigen med Nord-Sudan.
-
-* Driver blant annet med minerydding, helseprosjekter, utdanning av helsepersonell, yrkesutdanning, landsbyutvikling og nødhjelpsberedskap.
-
-* Er blant de største arbeidsgiverne i Sør-Sudan med om lag 1.000 medarbeidere, de fleste lokalt ansatte.
+לתמיכה נוספת ניתן לפנות אל webmaster@iba.org.il

@@ -14,8 +14,11 @@ import java.util.Vector;
 public class MainComparator {
 
     static String[] langs = {"eng", "pol", "ger", "rus", "fra", "cze", "hrv",
-        "danish", "norwegian"};
-    static String[] checked = {"dan4", "dan5", "nor4", "nor5"};
+        "danish", "norwegian", "esp", "ita", "por", "heb"};
+    static String[] checked = {"dan1", "dan2", "dan3", "dan4", "dan5", 
+        "eng-hero", "eng-nasa", "eng-oneword", "eng-wiki", "fra-test", 
+        "ger-test", "hrv-test", "nor1", "nor2", "nor3", "nor4", "nor5", 
+        "pol-diff", "pol-wiki", "rus-test", "test"};
 
     public static void main(String[] args) throws FileNotFoundException,
             IOException {
@@ -64,8 +67,8 @@ public class MainComparator {
                 }
                 double percent = (90000 - temp) * 100.0 / 90000.0;
                 DecimalFormat df = new DecimalFormat("###.##");
-                //System.out.println("Language " + languages.get(j).getName() + ": "
-                //        + temp + ", " + df.format(percent) + "%");
+                /*System.out.println("Language " + languages.get(j).getName() + ": "
+                        + temp + ", " + df.format(percent) + "%");*/
             }
             System.out.println("Detected language: " + langname + ", distance: "
                     + dist);
@@ -129,7 +132,10 @@ public class MainComparator {
             } else {
                 pos2 = 0;
             }
-            distance += (get.order.size() - get.order.indexOf(key))*(pos2 - pos1);
+            //System.out.println(get.order.size() - get.order.indexOf(key));
+            distance += (pos2 - pos1);
+            //System.out.println("Key: "+key+", pos1: "+pos1+", pos2: "+pos2+", 
+            //     dist: "+distance);
         }
         return distance;
     }
