@@ -22,11 +22,9 @@ import org.neuroph.nnet.MultiLayerPerceptron;
 //z użyciem sieci neuronowych z biblioteki http://neuroph.sourceforge.net/
 public class MainFreq {
 
-    static String[] langs = {"eng", "pol", "ger", "fra"};
-    static String tekst = "./src/etirecognize/ngram/samples/ger-test.txt";
+    static String[] langs = {"eng", "pol", "ger", "fra", "cze", "dan", "nor"};
+    static String tekst = "./src/etirecognize/ngram/samples/pol-wiki.txt";
     
-    //te mapy w sumie powodują zbędne przepisywanie danych w tę i nazad
-    //później to wszystko przebuduję
     static TreeMap<String, LangProfile> languages = new TreeMap<>();
     static TreeMap<Character, Integer> letterCount = new TreeMap<>();
     static double[] letterOccur = new double[26];
@@ -70,12 +68,10 @@ public class MainFreq {
             languages.put(lang, new LangProfile(lang));
         }
         
-        NeuralNetwork neuralNetwork = new MultiLayerPerceptron(26,13,4);
-        TrainingSet<SupervisedTrainingElement> trainingSet = new TrainingSet<>(26,4);
+        NeuralNetwork neuralNetwork = new MultiLayerPerceptron(26,13,langs.length);
+        TrainingSet<SupervisedTrainingElement> trainingSet = new TrainingSet<>(26,langs.length);
         
         //właściwe uczenie sieci
-        //na razie dostaje tylko po jednym zestawie na język, ale o dziwo to wystarcza
-        //(przynajmniej dla obecnych tekstów testowych)
         for(String lang : langs) {
             LangProfile lp = languages.get(lang);            
             trainingSet.addElement(new SupervisedTrainingElement(lp.letterFreq, lp.code));
@@ -88,13 +84,11 @@ public class MainFreq {
         double currentMax = results[0];
         int indexMax = 0;
         
-        for(int i=0; i<4; i++) {
+        for(int i=0; i<langs.length; i++) {
             System.out.println(results[i]);
             if(results[i] > currentMax)
                 indexMax = i;
         }
-        //dziwna rzecz: dla polskiego wypisuje, że wykrył francuski
-        //chociaż wartości wynikowe poprawnie wskazują na polski
         System.out.println("Wykryto język: "+langs[indexMax]);
     }
 }
